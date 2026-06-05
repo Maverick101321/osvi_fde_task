@@ -1,0 +1,36 @@
+# --- Proprietary assignment materials (do not publish) ---
+# Contains Osvi AI problem brief, internal SOPs, artifacts, and test scenarios.
+question/
+
+# --- macOS / Windows system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editor & IDE ---
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# --- Secrets & local environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+*.local
+
+# --- Logs & temp files ---
+*.log
+tmp/
+temp/
